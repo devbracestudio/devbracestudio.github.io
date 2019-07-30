@@ -1,5 +1,6 @@
-.navbar navbar-expand-lg navbar-dark stiky-top {
+.navbar navbar-expand-lg navbar-dark fixed-top {
   background:rgba(255, 255, 255, 0);   /* for latest browsers */
+
 }
 
 .intro {
@@ -36,7 +37,7 @@
 .about_background{
   background:rgba(255, 255, 255, 0.5);
   text-shadow: #000000 0 0 4px;
-  margin: 3vw;
+  margin: 3px;
 }
 
 .about_text{
@@ -46,8 +47,5 @@
   font-size: 30px;
   font-family: 'Caveat', cursive;
   text-align: justify;
-  margin-left:2vw;
-  margin-right:2vw;
-  margin-top: 2vw;
-  margin-bottom: 2vw;
+  margin:2px;
 }
