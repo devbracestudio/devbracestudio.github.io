@@ -24,89 +24,61 @@ main > .container-fluid {
   padding-left: 15px;
 }
 
-.navbar navbar-expand-lg navbar-dark fixed-top {
-    background: rgba(255, 255, 255, 0); /* for latest browsers */
+.navbar {
+  background-color: #FFFFFF;
 }
 
-.navbar{
-  background-color: #2d284e;
-  box-shadow: #fff 0 0 4px;
+.custom-toggler.navbar-toggler {
+  border-color: #3C9845
 }
 
-.intro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    height: auto;
-    background: url("../image/background.jpg") center no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(60,152,69, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-.intro_text {
-    font-family: 'Caveat', cursive;
-    font-size: 100px;
-    font-weight: 500;
-    text-align: center;
-    color: #ffffff;
+.nav-link {
+  color: #3C9845;
 }
 
-.about {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    height: auto;
-    background: url("../image/pencil.jpg") center no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
+.photo > .colert {
+  padding: 1vw;
+  width: max-content;
+  background-color: rgba(60, 152, 69,0.5);
 }
-
-.about_background {
-    margin: 3vw;
-    background: rgba(255, 255, 255, 0.5);
-    text-shadow: #000000 0 0 4px;
-}
-
-.about_text {
-    margin: 2vw;
-    font-family: 'Caveat', cursive;
-    font-size: 30px;
-    font-weight: 200;
-    text-align: justify;
-    color: #ffffff;
-}
-
-.carousel{
-  width: 100%;
-  height: auto;
-  text-align: center;
-  background-color: #2d284e
-}
-
-.contacts {
+.photo {
+  padding: 3vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 100%;
   height: auto;
-  background: url("../image/paper.jpg") center no-repeat;
+  background: url("../image/background1.jpg") center no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
-  
+  font-size: 60px;
+  font-family: 'Old Standard TT', serif;
+  color: #fff;
 }
 
-
-
-.contacts_text {
-  margin: 20vw;
-  font-family: 'Caveat', cursive;
-  font-size: 30px;
-  font-weight: 200;
-  text-align: justify;
-  color: #2d284e;
-  text-shadow: #2d284e 0 0 4px;
-  text-align: center;
-  vertical-align: center;
+.title{
+  background-color: #3C9845;
 }
+
+.title_logo{
+  padding: 5vw;
+}
+
+.title_text{
+  padding-top: 1vw;
+  color: #fff;
+  font-size: 20px;
+  border-left-width: 1px;
+  border-left-color: #FFFFFF;
+  font-family: 'Old Standard TT', serif;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
