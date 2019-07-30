@@ -5,10 +5,14 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
-main > .container-fluid {
-  padding: 55px 0px 0;
+main{
+  margin-right: 0px;
+}
+main > .container {
+  padding: 60px 0px 0;
 }
 
 .footer {
@@ -20,8 +24,8 @@ main > .container-fluid {
   padding-left: 15px;
 }
 
-.navbar {
-    background-color:#2d284e /* for latest browsers */
+.navbar navbar-expand-lg navbar-dark fixed-top {
+    background: rgba(255, 255, 255, 0); /* for latest browsers */
 }
 
 .intro {
@@ -55,13 +59,13 @@ main > .container-fluid {
 }
 
 .about_background {
-    margin: 3vw;
+    margin: 3px;
     background: rgba(255, 255, 255, 0.5);
     text-shadow: #000000 0 0 4px;
 }
 
 .about_text {
-    padding: 2vw;
+    margin: 2px;
     font-family: 'Caveat', cursive;
     font-size: 30px;
     font-weight: 200;
