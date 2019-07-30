@@ -28,6 +28,10 @@ main > .container-fluid {
     background: rgba(255, 255, 255, 0); /* for latest browsers */
 }
 
+.navbar{
+  background-color: #2d284e;
+}
+
 .intro {
     display: flex;
     flex-direction: column;
@@ -71,4 +75,11 @@ main > .container-fluid {
     font-weight: 200;
     text-align: justify;
     color: #ffffff;
+}
+
+.carousel{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background-color: #2d284e
 }
