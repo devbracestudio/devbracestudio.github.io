@@ -30,6 +30,7 @@ main > .container-fluid {
 
 .navbar{
   background-color: #2d284e;
+  box-shadow: #fff 0 0 4px;
 }
 
 .intro {
@@ -82,4 +83,30 @@ main > .container-fluid {
   height: auto;
   text-align: center;
   background-color: #2d284e
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  background: url("../image/paper.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  
+}
+
+
+
+.contacts_text {
+  margin: 20vw;
+  font-family: 'Caveat', cursive;
+  font-size: 30px;
+  font-weight: 200;
+  text-align: justify;
+  color: #2d284e;
+  text-shadow: #2d284e 0 0 4px;
+  text-align: center;
+  vertical-align: center;
 }
