@@ -7,8 +7,8 @@ body {
   padding: 0;
 }
 
-main > .container {
-  padding: 60px 15px 0;
+main > .container-fluid {
+  padding: 55px 0px 0;
 }
 
 .footer {
@@ -20,8 +20,8 @@ main > .container {
   padding-left: 15px;
 }
 
-.navbar navbar-expand-lg navbar-dark fixed-top {
-    background: rgba(255, 255, 255, 0); /* for latest browsers */
+.navbar {
+    background-color:#2d284e /* for latest browsers */
 }
 
 .intro {
@@ -55,13 +55,13 @@ main > .container {
 }
 
 .about_background {
-    margin: 3px;
+    margin: 3vw;
     background: rgba(255, 255, 255, 0.5);
     text-shadow: #000000 0 0 4px;
 }
 
 .about_text {
-    margin: 2px;
+    padding: 2vw;
     font-family: 'Caveat', cursive;
     font-size: 30px;
     font-weight: 200;
