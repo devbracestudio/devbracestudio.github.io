@@ -44,20 +44,23 @@ main > .container-fluid {
   padding: 1vw;
   width: max-content;
   background-color: rgba(60, 152, 69,0.5);
+  word-wrap: break-word;
 }
+
+
 .photo {
   padding: 3vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  height: auto;
   background: url("../image/background1.jpg") center no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
   font-size: 60px;
   font-family: 'Old Standard TT', serif;
   color: #fff;
+  
 }
 
 .title{
@@ -65,11 +68,16 @@ main > .container-fluid {
 }
 
 .title_logo{
-  padding: 5vw;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 2pv;
 }
 
 .title_text{
-  padding-top: 1vw;
+  padding: 20px;
   color: #fff;
   font-size: 20px;
   border-left-width: 1px;
@@ -79,6 +87,56 @@ main > .container-fluid {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 
+.row2{
+  background-color: #2160AD;
+}
+
+.row2_logo{
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 5px;
+}
+
+.row2_text{
+  padding: 20px;
+  color: #fff;
+  font-size: 20px;
+  border-left-width: 1px;
+  border-left-color: #FFFFFF;
+  font-family: 'Old Standard TT', serif;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.row3{
+  background-color: #E52200;
+}
+
+.row3_logo{
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 5px;
+}
+
+.row3_text{
+  padding: 20px;
+  color: #fff;
+  font-size: 20px;
+  border-left-width: 1px;
+  border-left-color: #FFFFFF;
+  font-family: 'Old Standard TT', serif;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
