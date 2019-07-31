@@ -90,7 +90,7 @@ main > .container-fluid {
 }
 
 .row2{
-  background-color: #2160AD;
+  background-color: #fff;
 }
 
 .row2_logo{
@@ -104,10 +104,8 @@ main > .container-fluid {
 
 .row2_text{
   padding: 20px;
-  color: #fff;
+  color: #3C9845;
   font-size: 20px;
-  border-left-width: 1px;
-  border-left-color: #FFFFFF;
   font-family: 'Old Standard TT', serif;
   text-align: left;
   display: flex;
@@ -116,7 +114,7 @@ main > .container-fluid {
 }
 
 .row3{
-  background-color: #E52200;
+  background-color: #fff;
 }
 
 .row3_logo{
@@ -130,13 +128,23 @@ main > .container-fluid {
 
 .row3_text{
   padding: 20px;
-  color: #fff;
+  color: #3C9845;
   font-size: 20px;
-  border-left-width: 1px;
-  border-left-color: #FFFFFF;
   font-family: 'Old Standard TT', serif;
   text-align: left;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+
+.backform{
+  background-color: #3C9845;
+  padding: 50px;
+}
+
+.backform_text{
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Old Standard TT', serif;
 }
