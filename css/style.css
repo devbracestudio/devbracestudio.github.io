@@ -148,3 +148,6 @@ main > .container-fluid {
   font-size: 20px;
   font-family: 'Old Standard TT', serif;
 }
+input {
+  width: 325px;
+}
