@@ -1,0 +1,133 @@
+.header{
+    background-image: url('../image/title_photo.jpg');
+    background-size: cover;
+    background-position-y: -7rem;
+    height: 22rem;
+}
+
+.overlay{
+    position: absolute;
+    min-height: 22rem;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.description{
+    position: absolute;
+    top: 10%;
+    margin: auto;
+    padding: 2em;
+}
+
+.description h1{
+    color:rgb(28, 68, 32);
+}
+
+.description p{
+    color:rgb(28, 68, 32);
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+#about{
+    background-color: #3C9845;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+#about div{
+    padding: 1rem;
+}
+
+#about .text{
+    font-size: 20px;
+    line-height: 1.5;
+    color: white;
+}
+
+.video{
+    padding:2rem;
+}
+
+.row{
+    margin: 0;
+}
+
+.title{
+    margin: 0;
+    background-color: #3C9845;
+    padding-left:2rem;
+    padding-top:2rem;
+    font-size: 2rem;
+    color: white;
+}
+
+.btnReadmore {
+	box-shadow:inset 0px 0px 16px -50px #3dc21b;
+	background:linear-gradient(to bottom, #3c9845 5%, #3c9845 100%);
+	background-color:#3c9845;
+	border-radius:9px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	padding:14px 8px;
+	text-decoration:none;
+	text-shadow:3px 2px 0px #13400c;
+}
+
+.btnReadmore:hover {
+	background:linear-gradient(to bottom, #3c9845 5%, #3c9845 100%);
+    background-color:#3c9845;
+    color:white;
+    text-decoration: none;
+}
+
+.btnReadmore:active {
+    color:#3C9845;
+	position:relative;
+	top:3px;
+}
+
+#benefits{
+    background-color: white;
+    justify-content: space-around;
+}
+
+.benefit{
+    margin-top: 1rem;
+}
+
+.round{
+    display: table;
+    height: 15rem;
+    width: 15rem;
+    background-color: #3C9845;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: bottom;
+}
+.round > div{
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+}
+
+#carouselReviews{
+    margin-top: 2rem;
+    padding-top:2rem;
+    background-color: #3C9845;  
+    font-size: 2rem; 
+    color: white;
+}
+
+.carousel-inner{
+    height: 20rem;
+}
+
+
